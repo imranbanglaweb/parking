@@ -1,0 +1,19 @@
+.fc-fri { color:red; }
+.fc-bg .fc-fri {background: rgba(200,0,0,.1) !important;}
+
+.fc-sat { color:red;  }
+.fc-bg .fc-sat {background: rgba(200,0,0,.1) !important;}
+
+.fc-content {padding: 10px;}
+.fc-day-number {font-weight: bold;}
+.fc-day {background: lavender;}
+#calendar .fc-day:hover { background: #ddd !important; }
+.fc-other-month {background: white;}
+.fc-sat.fc-other-month {background: rgba(150,0,0,.1) !important;}
+.fc-fri.fc-other-month {background: rgba(150,0,0,.1) !important;}
+.fc-day-number.fc-fri.fc-other-month, .fc-day-number.fc-sat.fc-other-month {background: transparent !important;}
+
+.fc-day-header {font-weight: bold;text-transform: uppercase;}
+.fc-event-container {cursor: pointer}
+.fc-today {background: rgba(0,255,0,.1) !important;}
+.fc-day-number.fc-today {background: transparent !important;}

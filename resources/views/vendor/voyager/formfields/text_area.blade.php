@@ -1,0 +1,1 @@
+<textarea class="form-control" name="{{ $row->field }}" id="{{ $row->field }}" rows="{{ $options->display->rows ?? 5 }}">{{ old($row->field, $dataTypeContent->{$row->field} ?? $options->default ?? '') }}</textarea>

@@ -1,0 +1,410 @@
+.ace_editor * {
+    font-family: monospace !important;
+}
+
+//navbar start
+.navbar-header .back-btn {
+    background: rgba($primary, 0.1) !important;
+    line-height: 1;
+    padding: 0 20px;
+    color: $white;
+    margin-right: 5px;
+}
+
+.navbar-header .voyager-angle-left {
+    font-size: 25px !important;
+}
+
+.navbar-header .back-btn .back-btn-text {
+    line-height: 2.3;
+}
+
+.navbar-header .breadcrumb {
+    background: $light;
+    top: 0;
+}
+
+.padding5 {
+    padding: 0;
+    padding: 5px;
+}
+
+.border-rad-left14 {
+    border-radius: 14px 0 0 14px !important;
+}
+
+.border-rad-right14 {
+    border-radius: 0 14px 14px 0 !important;
+}
+
+//navbar end
+//.breadcrumb li:last-child {}
+//.breadcrumb li:first-child {}
+
+.profile-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.dropdown a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.dropdown-menu.popup {
+    left: -160px;
+    width: 370px;
+    padding: 10px;
+}
+
+.navbar-nav.navbar-right {
+    top: 0;
+    height: 100%;
+    width: auto;
+    background: none !important;
+    position: relative;
+    left: -315px !important;
+}
+
+.nav-item i {
+    font-size: 20px;
+}
+
+.mail {
+    left: 91px;
+    background: $success;
+    line-height: initial;
+    padding: 2px 6px;
+    margin-top: 16px;
+    border-radius: 60%;
+    font-size: 11px;
+    color: $white;
+}
+
+.notification {
+    right: 70px;
+    background: $success;
+    line-height: initial;
+    padding: 2px 6px;
+    margin-top: 16px;
+    border-radius: 60%;
+    font-size: 11px;
+    color: #fff;
+}
+
+.navbar-header .navbar-brand img {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+}
+
+.navbar-header .navbar-brand .title {
+    position: relative;
+    top: 0;
+    left: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    float: right;
+    color: $primary;
+}
+
+.navbar-header .navbar-brand .logo-icon-container {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar-header.justify-content-md-center {
+    position: absolute;
+    left: 270px;
+}
+
+.app-container.expanded .content-container .navbar-top {
+    padding-left: 0;
+    position: fixed;
+}
+
+.app-container.expanded .content-container .side-menu {
+    margin-top: 75px;
+}
+
+.voyager .navbar > .container-fluid {
+    width: 100%;
+    background: $white;
+    height: 65px;
+    margin: 0;
+}
+
+.navbar {
+    padding: 0;
+    position: fixed;
+}
+
+.top-right li:first-child {
+    border-left: 1px solid $light;
+    height: 65px;
+}
+
+.badge-up {
+    position: relative;
+    top: -14px;
+    right: 10px;
+}
+
+.badge-danger {
+    background-color: $danger;
+}
+
+.badge-warning {
+    background-color: $warning;
+}
+
+.app-container .content-container .side-menu {
+    margin-top: 65px !important;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    width: auto;
+}
+
+.hamburger .fa {
+    font-size: 1rem;
+    margin: auto;
+    background: $primary-hover;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+.language {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li.active > a .icon {
+    margin-left: -3px;
+    color: $primary !important;
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li.active > a .title {
+    margin-left: -3px;
+    color: $primary !important;
+}
+
+.voyager .side-menu .navbar li.active {
+    border-left: 1px solid $primary !important;
+}
+
+.voyager .side-menu .navbar li a:hover  {
+    color: $primary !important;
+}
+
+//==========left navbar start===========
+#adminmenu {
+    overflow-y: auto;
+    max-height: calc(100vh - 6rem);
+}
+#adminmenu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#adminmenu::-webkit-scrollbar {
+    width: 6px;
+    background-color: $light;
+}
+
+#adminmenu::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: $primary;
+}
+
+//==========left navbar end=============
+
+//==========data table start===========
+.table-hover tbody tr:hover {
+    background: $white;
+}
+
+#dataTable thead tr th {
+    background: $white;
+}
+
+#dataTable tbody tr td .btn-success {
+    background: rgba($success, $btn-color-opacity);
+    color: $success;
+    font-size: 0.9rem;
+    border: 1px solid $light;
+    padding: 4px 10px;
+}
+
+#dataTable tbody tr td .btn-success:hover {
+    background: $success;
+    color: $white;
+}
+
+#dataTable tbody tr td .btn-info {
+    background: rgba($info, $btn-color-opacity);
+    color: $info;
+    font-size: 0.9rem;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+}
+
+#dataTable tbody tr td .btn-info:hover {
+    background: $info;
+    color: $white;
+}
+
+#dataTable #bread-actions a .btn-primary {
+    background: rgba($primary, $btn-color-opacity) !important;
+    color: $primary !important;
+    font-size: 0.9rem;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+}
+
+#dataTable #bread-actions a .btn-primary:hover {
+    background: $primary !important;
+    color: $white !important;
+}
+
+#dataTable tbody tr td a .edit {
+    background: rgba($info, $btn-color-opacity) !important;
+    color: $info !important;
+    font-size: 0.9rem;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+}
+
+#dataTable tbody tr td a .surgery-operation-types-action-button:hover {
+    background: $primary !important;
+    color: $white !important;
+}
+
+#dataTable tbody tr td .btn-primary {
+    background: rgba($primary, $btn-color-opacity) !important;
+    color: $primary !important;
+    font-size: 0.9rem;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+}
+
+#dataTable tbody tr td .btn-primary:hover {
+    background: $primary !important;
+    color: $white !important;
+}
+
+#dataTable tbody tr td .btn-warning {
+    background: rgba($warning, $btn-color-opacity);
+    color: $warning;
+    font-size: 0.9rem;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+}
+
+#dataTable tbody tr td .btn-warning:hover {
+    background: $warning;
+    color: $white;
+}
+
+#dataTable tbody tr td .btn-danger {
+    background: rgba($danger, $btn-color-opacity);
+    color: $danger;
+    font-size: 0.9rem;
+    border: 1px solid $white;
+    padding: 4px 10px;
+}
+
+#dataTable tbody tr td .btn-danger:hover {
+    background: $danger;
+    color: $white;
+}
+
+#dataTable .badge-danger, .badge-success {
+    padding: 5px;
+}
+
+.table th {
+    padding: 10px; /*padding-top: 10px;*/
+}
+
+.table td {
+    padding: 5px;
+}
+
+.toggle-group .btn, .toggle-group .btn.btn-default {
+    padding: 2px;
+}
+
+//==========data table end=============
+
+//==========add-edit form start=============
+fieldset.scheduler-border {
+    border: 1px groove $white !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0 0 0 0 #000;
+    box-shadow: 0 0 0 0 #000;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width: auto;
+    padding: 0 10px;
+    border-bottom: none;
+}
+
+.error {
+    color: $danger;
+}
+
+.panel-bordered > .panel-body {
+    overflow: visible !important;
+}
+
+#section_details {
+    margin-left: 0;
+}
+
+.form-edit-add {
+    padding: 10px;
+}
+
+//==========add-edit form end===============
+.save_items {
+    background: $success;
+    margin: auto;
+    padding: 7px 30px;
+}
+
+.panel-footer button {
+    margin: 10px;
+    margin-left: 45%;
+}
+
+.print-attendance-btn {
+    margin-left: 45%;
+}
+
+.surgery-op-type-form {
+    margin: 0 50px 10px;
+}
+
+//==========add-edit-history page buttons end=================
+

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+table {
+    width: 100%;
+}
+
+table, th, td {
+    padding: 0 3px;
+}
+.bordered {
+    border: 1px solid black;
+}
+.bordered-bold {
+    border: 2px solid black;
+}
+.sign-right {
+    margin-top: 25px;
+    border-top: 1px solid #000;
+    float: right;
+    display: block;
+    padding-right: 3rem;
+}
+.sign-left {
+    margin-top: 25px;
+    border-top: 1px solid #000;
+    float: left;
+    display: block;
+}
+
+/*tr td:first-child {*/
+/*    background: #1a1f21;*/
+/*}*/
+.td-50 {
+    width: 50% !important;
+}
+p {
+    font-size: 1rem;
+    padding: 0 3px;
+}

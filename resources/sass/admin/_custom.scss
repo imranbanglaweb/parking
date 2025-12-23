@@ -1,0 +1,137 @@
+$assets-path: '/assets/';
+.voyager-x:before {
+  font-size: 20px;
+  color: blanchedalmond;
+  background: #6f6d6d;
+}
+
+
+.login .login-sidebar {
+    border-top: none !important;
+}
+.login .login-sidebar {
+    background-image:url($assets-path +'login-right2.png') !important;
+    background-repeat: no-repeat !important;
+    //background-size: 100% 100% !important;
+    background-size: 100% 740px;
+}
+body.login .copy p{
+    color: black !important;
+    left: 0 !important;
+}
+body.login .copy h1{
+    color: black !important;
+    margin-left: 0 !important;
+}
+
+p.forgot {
+    text-align: center !important;
+    padding-top: 65px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #174061;
+}
+p.account {
+    text-align: center !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $primary !important;
+    font-size: 15px !important;
+}
+
+body.login .copy{
+    padding:0 !important;
+}
+//==========================
+.hidden{display: none;}
+
+
+.login-right-bg{
+    background-image:url($assets-path +'login-right2.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    //background-size: 100% 100% !important;
+    //background-size: 100% 760px;
+}
+
+.login-top-text {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2.5;
+    width: 80px;
+    height: 80px;
+    background-color: $primary;
+    color: #fff;
+    border-radius: 50%;
+    margin-top: -70px;
+    //margin: -70px 0px 30px 40%;
+    //padding: 5px 0;
+}
+
+.hr-login-form {
+    //width: 50%;
+    margin: 0 auto;
+    //border: 1px red solid;
+    background: #fff;
+    box-shadow: 5px 4px 8px #ccc;
+    padding: 30px 40px;
+    //margin-bottom: 200px;
+    //margin-top: 100px;
+}
+
+.form-control {
+    color: #76838f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4eaec !important;
+}
+
+body.login .login-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 20px;
+    outline: none !important;
+    /* opacity: 0.8; */
+    border: 0;
+    border-radius: 2px;
+    float: left;
+    font-size: 14px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    -webkit-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+
+    width: 100% !important;
+    background: $primary !important;
+}
+
+p.management{
+    position: relative;
+    background-image:url($assets-path +'Rectangle-1241.png') !important;
+    width: 150px;
+    padding: 10px;
+    background-size: 100% 100%;
+    left: -16px;
+    top: 44px;
+    color: $primary;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login-footer-left {
+    position: absolute;
+    top: 70%;
+    //right: 10%;
+    left: 5%;
+}
+.navbar-header .back-btn {
+    width: 60px;
+}
+.hamburger .fa {
+    font-size: 23px;
+    margin-left: 12px;
+}

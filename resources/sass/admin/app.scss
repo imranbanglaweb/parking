@@ -1,0 +1,26 @@
+@import "_variables";
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~select2/dist/css/select2";
+@import "~toastr/build/toastr";
+@import "~perfect-scrollbar/dist/css/perfect-scrollbar";
+@import "~dropzone/dist/dropzone";
+
+$fa-font-path: "/../fonts";
+
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.min.css";
+@import "fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+@import "voyager_styles";
+@import "~bootstrap4-toggle/css/bootstrap4-toggle.min.css";
+@import "~tempusdominus-bootstrap-4/src/sass/tempusdominus-bootstrap-4";
+@import "_custom";
+@import "_custom_dashboard";
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+  width: auto;
+}
+
+* {
+  font-family: 'Rubik', sans-serif;
+}

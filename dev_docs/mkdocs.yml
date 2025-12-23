@@ -1,0 +1,25 @@
+site_name: Laravel RoleX
+theme:
+  name: 'material'
+pages:
+  - Home: 'index.md'
+  - The Basic:
+      - 'Data Fetching Api': 'data_fetching_api.md'
+  - Digging Deeper:
+      - 'Notifications': 'notifications.md'
+      - 'Datatable': 'datatables.md'
+markdown_extensions:
+  - markdown.extensions.admonition:
+  - pymdownx.betterem:
+  - markdown.extensions.attr_list:
+  - markdown.extensions.def_list:
+  - markdown.extensions.tables:
+  - markdown.extensions.abbr:
+  - pymdownx.extrarawhtml:
+  - pymdownx.superfences:
+  - pymdownx.highlight:
+      extend_pygments_lang:
+        - name: php-inline
+          lang: php
+          options:
+            startinline: true
